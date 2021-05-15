@@ -5,12 +5,21 @@ export const Nav = styled.nav`
     justify-content:flex-start;
     align-items:center;
     height: 80px;
-    background: red;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
 `
 
 export const NavLogo = styled.img`
-    width: 150px;
+    width: 180px;
     height: 50px;
     position: absolute;
-    left: 205px;
+    left: 180px;
+
+    @media screen and (max-width: 768px){
+        left: 30px;
+    }
 `
