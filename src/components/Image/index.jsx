@@ -19,9 +19,7 @@ const index = () => {
                     <Foto src={Imagem} />
                 </FotoBg>
                 <ImageContent>
-                    <ImageTitle>Uma casa com um cachorro é como um jardim com flores. Adiquira já seu novo amiguinho
-                        com a gente e tenha em sua casa não um amigo e sim um companheiro!
-                    </ImageTitle>
+                    <ImageTitle>Uma casa com um cachorro é como um jardim com flores!</ImageTitle>
                     <ImageP>Entre em contato e reserve um dia para conhecer nossos pets</ImageP>
                 </ImageContent>
             </ImagemContainer>

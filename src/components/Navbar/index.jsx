@@ -14,7 +14,6 @@ const index = () => {
                     <NavItem><NavLink>Home</NavLink></NavItem>
                     <NavItem><NavLink>Products</NavLink></NavItem>
                     <NavItem><NavLink>Services</NavLink></NavItem>
-                    <NavItem><NavLink>Coments</NavLink></NavItem>
                     <NavItem><NavLink>Contact</NavLink></NavItem>
                 </NavMenu>
             </Nav>

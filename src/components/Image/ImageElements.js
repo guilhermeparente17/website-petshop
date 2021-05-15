@@ -54,13 +54,33 @@ export const ImageContent = styled.div`
 
 export const ImageTitle = styled.h3`
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align:center;
     font-family: 'Roboto',sans-serif;
+    max-width: 1100px;
+
+    @media screen and (max-width: 768px){
+        font-size: 1.3rem;
+    }
+
+    @media screen and (max-width: 568px){
+        font-size: 1rem;
+        max-width: 300px;
+    }
 `
 
 export const ImageP = styled.p`
-    font-size:1.5rem;
+    font-size:1.3rem;
     font-family: 'Pacifico', cursive;
+    text-align:center;
+
+    @media screen and (max-width: 768px){
+        font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 568px){
+        font-size: 1rem;
+        max-width: 300px;
+    }
 `
 

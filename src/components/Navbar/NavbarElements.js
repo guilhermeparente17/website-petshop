@@ -13,6 +13,12 @@ export const NavMenu = styled.ul`
     flex-wrap: wrap;
     text-transform: uppercase;
     color: #fff;
+
+    @media screen and (max-width: 768px){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 0.8rem;
+    }
 `
 
 export const NavItem = styled.li`
