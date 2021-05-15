@@ -4,6 +4,7 @@ import { GlobalStyle } from '../globalStyles'
 import Image from '../components/Image'
 import Navbar from '../components/Navbar'
 import Welcome from '../components/Welcome'
+import Services from '../components/Services'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Image />
             <Navbar />
             <Welcome />
+            <Services />
         </div>
     )
 }
