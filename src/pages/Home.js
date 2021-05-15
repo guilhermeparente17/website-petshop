@@ -5,6 +5,7 @@ import Image from '../components/Image'
 import Navbar from '../components/Navbar'
 import Welcome from '../components/Welcome'
 import Services from '../components/Services'
+import Events from '../components/Events'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Navbar />
             <Welcome />
             <Services />
+            <Events />
         </div>
     )
 }
