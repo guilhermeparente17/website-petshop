@@ -26,7 +26,9 @@ export const NavItem = styled.li`
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.1rem;
 
-    
+    @media screen and (max-width: 768px){
+        
+    }
 `
 
 export const NavLink = styled.a`

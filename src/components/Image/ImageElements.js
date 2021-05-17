@@ -36,7 +36,7 @@ export const Foto = styled.img`
 `
 
 export const ImageContent = styled.div`
-   background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%,
+   background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%,
    rgba(0,0,0,0.6) 100%),
    linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
    width: 100%;

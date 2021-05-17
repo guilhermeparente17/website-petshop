@@ -88,7 +88,7 @@ export const CardButtom = styled.button`
     transition: 0.4s ease;
 
     &:hover{
-        background: #363636;
+        background: #fa5348;
         transition: 0.4s ease;
         color: white;
     }
