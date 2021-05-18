@@ -6,7 +6,7 @@ export const Welcome = styled.div`
     display:flex;
     flex-direction: column;
     align-items:center;
-    background: #DCDCDC;
+    background: #fff;
     text-align:center;
     
 `
